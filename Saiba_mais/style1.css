@@ -10,8 +10,24 @@ main {
 }
 
 .os_coxas {
+    display: flex;
+    align-items: center;
+
     li {
         display: block;
+        border: none;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    .fotos {
+        width: 100x;
+        height: 200px;
+    }
+
+    li {
         border: none;
     }
 
