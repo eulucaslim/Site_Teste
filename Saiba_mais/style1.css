@@ -39,12 +39,14 @@ main {
         color: white;
         background-color: #002333;
         padding: 10px;
-        border-radius: 5px; 
+        border-radius: 5px;
     }
 
-    border: 1px solid black;
+    border: 2px dashed black;
+    border-radius: 10px;
     margin: 20px;
     padding: 10px;
     max-width: 400px;
     max-height: 450px;
+    background-color: lightcyan; 
 }
