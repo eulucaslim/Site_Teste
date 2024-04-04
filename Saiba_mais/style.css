@@ -83,20 +83,25 @@ footer {
     background-color: #018dec;
     padding: 20px;
 
-    color: white;
+    color: #002333;
     font-weight: 600;
 }
 
 footer a {
-    color: #002333;
+    color: white;
     font-weight: 600;
     text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 footer span {
     font-size: 1.2em;
     font-weight: bold;
 }
+
 
 @media screen and (max-width: 399px) {
     header {
